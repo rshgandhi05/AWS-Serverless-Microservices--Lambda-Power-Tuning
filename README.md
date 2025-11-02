@@ -25,7 +25,7 @@ Outcome: You can choose a strategy: optimize for the lowest cost, the fastest sp
 
 # Lambda Function 
 
-'''python
+```python
 from __future__ import print_function
 import boto3
 import json
