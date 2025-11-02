@@ -33,7 +33,7 @@ print('Loading function')
 
 
 def lambda_handler(event, context):
-    '''Provide an event that contains the following keys:
+    Provide an event that contains the following keys:
 
       - operation: one of the operations in the operations dict below
       - tableName: required for operations that interact with DynamoDB
@@ -60,4 +60,3 @@ def lambda_handler(event, context):
         return operations[operation](event.get('payload'))
     else:
         raise ValueError('Unrecognized operation "{}"'.format(operation))
-        '''
