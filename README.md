@@ -87,6 +87,7 @@ Power Tuning Outcome: The increase in memory from 128MB to 1024MB resulted in a 
 # Cost Analysis
 <img width="1675" height="280" alt="image" src="https://github.com/user-attachments/assets/be2cf5c1-1823-4455-b866-8c68ec365fe6" />
 
+
 Cost Optimization Trade-off: While the cost factor for 1024 MB is mathematically higher (88 vs 43.375), the massive 75% reduction in latency (347ms $\rightarrow$ 88ms) creates a better user experience and allows the service to handle higher throughput (6.06 req/s vs 4.97 req/s).
 
 Final Decision: For a user-facing API, the Performance Efficiency gained by using 1024MB often outweighs the marginal increase in Cost Optimization. The best balanced solution would be found by testing values between 128MB and 1024MB using the Power Tuning visualization.
