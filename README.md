@@ -75,8 +75,11 @@ To validate the Power Tuning principle, two load tests were run on the same API 
 <img width="2797" height="375" alt="image" src="https://github.com/user-attachments/assets/3efcaf6e-bc18-447a-9483-23f4ba22eb05" />
 
 # Result Visualization (128 MB vs 1024 MB)
+
+# 128 MB
 <img width="1930" height="1657" alt="image" src="https://github.com/user-attachments/assets/37eabf70-bfa6-46a8-9989-66e3d461d49a" />
 
+# 1024 MB
 <img width="1925" height="1650" alt="image" src="https://github.com/user-attachments/assets/6b02b637-bd1d-46fc-8f99-5a08248d0301" />
 
 Power Tuning Outcome: The increase in memory from 128MB to 1024MB resulted in a significant performance increase (75% reduction in average latency) and higher efficiency (more requests processed), validating that 1024MB is the superior setting for this workload from a Performance Efficiency standpoint.
